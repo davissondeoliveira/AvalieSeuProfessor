@@ -6,5 +6,5 @@ import edu.byuh.AvalieSeuProfessor.model.User;
 
 public interface RateService {
 
-	public List<User> getAllStudents();
+	public List<User> getAllUsers();
 }

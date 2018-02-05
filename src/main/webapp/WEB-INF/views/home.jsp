@@ -9,7 +9,24 @@
 	Avalie Seu Professor.  
 </h1>
 
-
+<table>
+  <tr>
+	<th>ID</th>
+	<th>First Name</th>
+	<th>Last Name</th>
+	<th>Email</th>
+	<th>Password</th>
+  </tr>
+  <c:forEach items="${userList}" var="user">
+	<tr>
+	  <td>${user.id}</td>
+	  <td>${user.f_name}</td>
+	  <td>${user.l_name}</td>
+	  <td>${user.email}</td>
+	  <td>${user.password}</td>
+	</tr>
+  </c:forEach>
+</table>
 
 
 

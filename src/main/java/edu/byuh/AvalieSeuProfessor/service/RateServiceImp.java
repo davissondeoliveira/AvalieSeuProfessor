@@ -13,7 +13,7 @@ public class RateServiceImp implements RateService{
 		this.rateDao = cid;
 	}
 	
-	public List<User> getAllStudents(){
-		return rateDao.getList();
+	public List<User> getAllUsers(){
+		return rateDao.getListUsers();
 	}
 }

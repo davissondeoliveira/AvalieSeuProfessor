@@ -4,8 +4,16 @@ package edu.byuh.AvalieSeuProfessor.model;
 public class User {
 
 	int id;
-	String f_name, l_name, email;
+	String f_name, l_name, email, password;
 	
+	public String getPassword() {
+		return password;
+	}
+
+	public void setPassword(String password) {
+		this.password = password;
+	}
+
 	public int getId() {
 		return id;
 	}

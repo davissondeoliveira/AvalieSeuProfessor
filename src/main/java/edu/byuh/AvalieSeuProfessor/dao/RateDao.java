@@ -6,5 +6,5 @@ import edu.byuh.AvalieSeuProfessor.model.User;
 
 public interface RateDao {
 
-	public List<User> getList();
+	public List<User> getListUsers();
 }
